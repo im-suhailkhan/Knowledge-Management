@@ -1,0 +1,41 @@
+h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.formclass{
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.shadow{
+  box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+}
+.but{
+  display: flex;
+ justify-content: center;
+}
+button{
+  margin-bottom: 0.5rem;
+}
+.example-form {
+    max-width: 50rem;
+    width: 100%;    
+  }
+  .para{
+    width: 10rem;
+  }
+  .ci{
+    display: flex;
+    justify-content: center;
+  }
+  .example-full-width {
+    width: 100%;
+  }
+  table {
+    margin-top: 2rem;
+    width: 90%;
+    margin-left: 5rem;
+    
+  }
+ 

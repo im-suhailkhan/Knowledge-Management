@@ -1,0 +1,46 @@
+<button class="open-button" (click)="openForm()">Chat</button>
+        <div  class="chat-popup"  id="myForm">
+		<div class="col-sm-3 frame" style="margin-bottom:80px; padding-right:37px;" >
+            <ul class="ul" #cgi>
+
+                <!-- <li style="width:100%"> 
+                            
+                <div *ngIf="flag1" class="msj macro">
+                    <div class="avatar"><img class="img-circle" style="width:100%;" src="{{useravatar}}" />
+                    </div> 
+                            <div class="text text-l">
+                                    <p> {{inputtext}} </p>
+                                    <p><small>  </small></p>
+                            </div>
+                    </div>
+                </li>
+            
+                <li style="width:100%;">
+                    <div *ngIf="flag2" class="msj-rta macro">
+                        <div class="text text-r">
+                            <p>{{reply}}</p>
+                            <p><small></small></p>
+                        </div>
+                    <div class="avatar" style="padding:0px 0px 0px 10px !important">
+                        <img class="img-circle" style="width:100%;" src="{{botavatar}}" />
+                    </div>    
+                </div>                            
+              </li>                                   -->
+            </ul>
+            <div>
+                <div  class="msj-rta macro" style="margin-bottom:5px;">                        
+                    <div   class="text text-r" style="background:whitesmoke !important">
+                        <input class="mytext" placeholder="Type a message" [(ngModel)]="inputtext" (keyup.enter)="insertUserChat()"/>
+                        
+                        <p ng-bind-html="control"></p>
+                    </div> 
+
+                </div>
+                <div style="padding:5px;" class="bottombuttons">
+                    <!-- <span class="glyphicon glyphicon-share-alt"></span> -->
+
+					<button type="button" class="btn cancel" style="padding-bottom:15px; padding-left:1px;" (click)="closeForm()">Close</button>
+                </div>                
+            </div>
+			</div>
+        </div> 
